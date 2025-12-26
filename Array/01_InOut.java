@@ -1,6 +1,6 @@
 import java.util.*;
 
-class InOut {
+class Solution {
     public static void main(String args[]) {
         int marks[] = new int[50];
         System.out.println("length of array : " + marks.length);
@@ -26,8 +26,6 @@ class InOut {
 
         int percentage = (marks[0] + marks[1] + marks[2])/3;
         System.out.println("percentage : " + percentage + "%");
-
-        sc.close();
     }
 }
 
